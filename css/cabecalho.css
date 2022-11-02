@@ -33,4 +33,5 @@
 
 .cabecalho__botao:hover {
     border: 1px solid white;
+    cursor: pointer;
 }

@@ -1,0 +1,63 @@
+.todo-list {
+    min-height: 100vh;
+}
+
+.app {
+    background-color: pink;
+    padding: .5rem;
+    min-height: 20rem;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 1.5rem;
+}
+
+/*INPUT E BOTAO*/
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    margin: .8rem 0;
+}
+
+.formulario__input {
+    border: none;border-radius: 5px;
+    height: 2rem;
+    padding: 10px;
+    width: 70%;
+}
+
+.formulario__input:focus {
+    outline: none;
+    border: 1px solid black;
+}
+
+.formulario__botao {
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    transition: .3s;
+}
+
+.formulario__botao:hover, .lista__botao:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/*ITENS LISTA*/
+.lista__item {
+    align-items: center;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.lista__botao {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .3s;
+}

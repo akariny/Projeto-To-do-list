@@ -4,6 +4,18 @@
     color: var(--branco);
 }
 
+/*BOTAO DO CABECALHO*/
+.darkMode__botao-cabecalho {
+    background-color: var(--laranja-claro);
+}
+
+.darkMode__lua {
+    display: none;
+}
+
+.darkMode__sol {
+    display: block;
+}
 /*TO DO LIST*/
 .darkMode__app{
     background: var(--azul);
@@ -25,9 +37,4 @@
 
 .darkMode__botao-form:hover, .darkMode__lista-botao:hover {
     color: var(--azul-claro) ;
-}
-
-/*RODAPE*/
-.darkMode__rodape {
-    background: var(--azul) ;
 }

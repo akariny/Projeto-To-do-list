@@ -1,9 +1,10 @@
 .cabecalho {
     align-items: center;
     display: flex;
+    height: 60px;
     justify-content: space-between;
     margin-bottom: 10px;
-    padding: .5rem;
+    padding: .8rem;
 }
 
 .cabecalho__logo {
@@ -12,7 +13,7 @@
 }
 
 .cabecalho__imagem {
-    height: 5rem;
+    height: 3rem;
     margin: 0 .5rem;
 }
 
@@ -26,11 +27,27 @@
     border: none;
     border-radius: 5px;
     height: 2rem;
-    margin-right: 2rem;
     width: 2rem;
 }
 
 .cabecalho__botao:hover {
     border: 1px solid white;
     cursor: pointer;
+}
+
+.sol {
+    display: none;
+}
+
+/*RESPONSIVO*/
+@media screen and (min-width: 0) {
+    .cabecalho__botao {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__botao {
+        margin-right: 2rem;
+    }
 }

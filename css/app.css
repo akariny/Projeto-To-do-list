@@ -1,9 +1,9 @@
 .todo-list {
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .app {
-    background-color: pink;
+    background-color: var(--laranja);
     padding: .5rem;
     min-height: 20rem;
     width: 20rem;
@@ -34,21 +34,23 @@
 }
 
 .formulario__botao {
+    background: var(--laranja-claro);
     border: none;
     border-radius: 5px;
+    font-family: 'Quantico', sans-serif;
     padding: 0 15px;
     transition: .3s;
 }
 
 .formulario__botao:hover, .lista__botao:hover{
     cursor: pointer;
-    color: red;
+    color: var(--laranja-escuro);
 }
 
 /*ITENS LISTA*/
 .lista__item {
     align-items: center;
-    background-color: gray;
+    background-color: var(--laranja-claro);
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
@@ -56,8 +58,10 @@
 }
 
 .lista__botao {
+    background: var(--laranja);
     border: none;
     border-radius: 5px;
+    font-family: 'Quantico', sans-serif;
     padding: 5px 10px;
     transition: .3s;
 }

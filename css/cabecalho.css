@@ -22,7 +22,7 @@
 }
 
 .cabecalho__botao {
-    background: darkblue;
+    background: var(--azul);
     border: none;
     border-radius: 5px;
     height: 2rem;

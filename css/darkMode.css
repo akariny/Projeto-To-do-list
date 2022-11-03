@@ -1,0 +1,33 @@
+/*BODY*/
+.darkMode{
+    background: var(--bg-darkMode);
+    color: var(--branco);
+}
+
+/*TO DO LIST*/
+.darkMode__app{
+    background: var(--azul);
+}
+
+.darkMode__botao-form {
+    background: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.darkMode__lista-item {
+    background: var(--azul-claro);
+}
+
+.darkMode__lista-botao {
+    background: var(--azul);
+    color: var(--branco);
+}
+
+.darkMode__botao-form:hover, .darkMode__lista-botao:hover {
+    color: var(--azul-claro) ;
+}
+
+/*RODAPE*/
+.darkMode__rodape {
+    background: var(--azul) ;
+}

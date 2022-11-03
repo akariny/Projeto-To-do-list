@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/darkMode.css">
 </head>
 <body>
     
@@ -20,28 +21,27 @@
             <img src="img/lista.png" alt="icone lista" class="cabecalho__imagem">
             <h1 class="cabecalho__titulo">To Do List</h1>
         </div>
-        <button class="cabecalho__botao">&#127769;</button>
-        
+        <button class="cabecalho__botao" data-botao-darkMode> &#127769;</button>
     </header>
 
     <main>
         <section class="todo-list">
-            <div class="app">
+            <div class="app" data-app>
                 <h2 class="titulo">
                     Organize suas tarefas &#128522; 
                 </h2>
     
                 <form action="" class="formulario">
                     <input type="text" class="formulario__input">
-                    <button class="formulario__botao">Novo Item</button>
+                    <button class="formulario__botao" data-botao-form>Novo Item</button>
                 </form>
     
                 <ul class="lista">
-                    <li class="lista__item">
+                    <li class="lista__item" data-lista-item>
                         Item Novo
                         <div class="lista__botoes">
-                            <button class="lista__botao concluir">concluir</button>
-                            <button class="lista__botao excluir">excluir</button>
+                            <button class="lista__botao" data-botao-concluir>concluir</button>
+                            <button class="lista__botao" data-botao-excluir>excluir</button>
                         </div>
                     </li>
                 </ul> 
@@ -49,6 +49,8 @@
         </section>
     </main>
 
-    <footer class="rodape">Desenvolvido por Ana Kariny Pedrosa &copy; 2022</footer>
+    <footer class="rodape" data-rodape>Desenvolvido por Ana Kariny Pedrosa &copy; 2022</footer>
+
+    <script src="js/darkMode.js"></script>
 </body>
 </html>

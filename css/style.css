@@ -1,11 +1,15 @@
 :root {
-    --roxo: #D2B4DE;
-    --roxo-escuro: #A569BD;
-    --azul: #1F618D;
     --bg: #FEFFD0;
     --laranja: #F8C471;
     --laranja-claro: #F9E79F;
     --laranja-escuro: #935116;
+
+    --bg-darkMode: #00033F;
+    --azul: #154360;
+    --azul-claro: #1F618D;
+    --azul-escuro: #12374F;
+
+    --branco: #FFFFFF;
 }
 
 body {

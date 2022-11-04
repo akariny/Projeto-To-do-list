@@ -9,6 +9,7 @@
     background-color: var(--laranja-claro);
 }
 
+/*EMOJIS DO BOTAO*/
 .darkMode__lua {
     display: none;
 }
@@ -16,6 +17,7 @@
 .darkMode__sol {
     display: block;
 }
+
 /*TO DO LIST*/
 .darkMode__app{
     background: var(--azul);

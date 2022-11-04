@@ -57,13 +57,27 @@
     padding: 10px;
 }
 
+.lista__texto {
+    max-width: 55%;
+    word-wrap: break-word;
+}
+
 .lista__botao {
     background: var(--laranja);
     border: none;
     border-radius: 5px;
     font-family: 'Quantico', sans-serif;
+    margin-right: 3px;
     padding: 5px 10px;
     transition: .3s;
+}
+
+.lista__botao:nth-child(2) {
+    margin-right: 0;
+}
+
+.concluido {
+    text-decoration: line-through;
 }
 
 @media screen and (max-width: 330px) {

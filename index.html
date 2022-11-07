@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/rodape.css">
-    <link rel="stylesheet" href="css/darkMode.css">
 </head>
 <body>
     
@@ -21,10 +20,14 @@
             <img src="img/lista.png" alt="icone lista" class="cabecalho__imagem">
             <h1 class="cabecalho__titulo">To Do List</h1>
         </div>
-        <button class="cabecalho__botao" id="botao-darkMode">
-            <span class="lua" id="lua"> &#127769;</span> 
-            <span class="sol" id="sol"> &#9728;&#65039;</span> 
-        </button>
+        <div class="cabecalho__botoes">
+            <a href="https://github.com/akariny" target="_blank" class="cabecalho__botao">
+                <img src="img/linkedin-logo.png" alt="Logo Linkedin" class="cabecalho__botao-img linkedin">
+            </a>
+            <a href="https://www.linkedin.com/in/anakariny/" target="_blank" class="cabecalho__botao">
+                <img src="img/github-logo.png" alt="Logo Github" class="cabecalho__botao-img github">
+            </a>    
+        </div>
     </header>
 
     <main>
@@ -40,13 +43,7 @@
                 </form>
     
                 <ul class="lista" id="lista">
-                    <!-- <li class="lista__item" id="lista-item">
-                        <p class="lista__texto">Item Novo</p>
-                        <div class="lista__botoes">
-                            <button class="lista__botao" id="botao-concluir">concluir</button>
-                            <button class="lista__botao" id="botao-excluir">excluir</button>
-                        </div>
-                    </li> -->
+
                 </ul> 
             </div>
         </section>
@@ -54,7 +51,6 @@
 
     <footer class="rodape" data-rodape>Desenvolvido por Ana Kariny Pedrosa &copy; 2022</footer>
 
-    <script src="js/darkMode.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

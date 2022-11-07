@@ -1,19 +1,13 @@
 :root {
-    --bg: #FEFFD0;
-    --laranja: #F8C471;
-    --laranja-claro: #F9E79F;
-    --laranja-escuro: #935116;
-
-    --bg-darkMode: #00033F;
-    --azul: #154360;
-    --azul-claro: #1F618D;
-    --azul-escuro: #12374F;
-
-    --branco: #FFFFFF;
+    --bg: #031059;
+    --azul: #1A5276;
+    --azul-claro: #2471A3;
+    --branco: #FDFDFD;
 }
 
 body {
     background: var(--bg);
+    color: var(--branco);
     font-family: 'Quantico', sans-serif;
 }
 

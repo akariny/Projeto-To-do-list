@@ -3,7 +3,7 @@
 }
 
 .app {
-    background-color: var(--laranja);
+    background-color: var(--azul);
     padding: .5rem;
     min-height: 20rem;
     width: 20rem;
@@ -34,9 +34,10 @@
 }
 
 .formulario__botao {
-    background: var(--laranja-claro);
+    background: var(--azul-claro);
     border: none;
     border-radius: 5px;
+    color: var(--branco);
     font-family: 'Quantico', sans-serif;
     padding: 0 15px;
     transition: .3s;
@@ -44,13 +45,13 @@
 
 .formulario__botao:hover, .lista__botao:hover{
     cursor: pointer;
-    color: var(--laranja-escuro);
+    text-decoration: underline;
 }
 
 /*ITENS LISTA*/
 .lista__item {
     align-items: center;
-    background-color: var(--laranja-claro);
+    background-color: var(--azul-claro);
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
@@ -63,9 +64,10 @@
 }
 
 .lista__botao {
-    background: var(--laranja);
+    background: var(--azul);
     border: none;
     border-radius: 5px;
+    color: var(--branco);
     font-family: 'Quantico', sans-serif;
     margin-right: 3px;
     padding: 5px 10px;

@@ -7,6 +7,10 @@ const listaItem = document.querySelector('.lista-item');
 function criarTarefa(evento) {
     evento.preventDefault();
 
+    if(input.value == "") {
+        return
+    };
+    
     //TODO: CRIANDO ELEMENTOS HTML DA LISTA 
     const tarefa = {
         valor: input.value,
